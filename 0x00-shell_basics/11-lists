@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a -l 
+lsal="ls -a -l" && $lsal && source ./10-back && cd .. && $lsal && $lsall /boot 
